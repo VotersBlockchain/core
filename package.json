@@ -2,7 +2,7 @@
   "name": "voters-blockchain-core",
   "version": "0.0.1",
   "description": "Core of the voter's blockchain, i.e. the blockchain itself.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/VotersBlockchain/core/issues"
   },
-  "homepage": "https://github.com/VotersBlockchain/core#readme"
+  "homepage": "https://github.com/VotersBlockchain/core#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "body-parser": "^1.19.0",
+    "discovery-swarm": "^6.1.0",
+    "express": "^4.17.1",
+    "get-port": "^5.1.1"
+  }
 }
